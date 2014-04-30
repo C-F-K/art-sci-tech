@@ -18,7 +18,7 @@ var citeEntry = function(bibEntry) {
 	}
 };
 
-var bibRef = new Firebase('https://ast45.firebaseio.com//');
+var bibRef = new Firebase('https://ast45.firebaseio.com/');
 
 bibRef.on('value', function(snapshot) {
 	$('.main p').remove();
